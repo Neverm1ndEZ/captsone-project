@@ -1,6 +1,6 @@
 # PennyTrack - An Intuitive Expense Tracker Application
 
-Welcome to PennyTrack, an expense tracking application developed by Group CIT-G11 as our Final Year Capstone Project. This application is designed to simplify and enhance personal finance management through an intuitive and feature-rich platform.
+Welcome to PennyTrack, an expense-tracking application developed by Group CIT-G11 as our Final Year Capstone Project. This application is designed to simplify and enhance personal finance management through an intuitive and feature-rich platform.
 
 ## Technology Stack
 
@@ -12,11 +12,11 @@ PennyTrack is built using the following technologies:
 
 ## Frontend
 
-The frontend of PennyTrack is developed using Next.js, React, and TailwindCSS. Below is the `package.json` file for the frontend:
+The front end of PennyTrack is developed using Next.js, React, and TailwindCSS. Below is the `package.json` file for the frontend:
 
 ```json
 {
-	"name": "expense-tracker-mern",
+	"name": "pennytrack-frontend",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
@@ -61,7 +61,7 @@ The backend of PennyTrack is built with Express and connects to MongoDB using Mo
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "start": "node -r dotenv/config --experimental-json-modules src/index.js"
   },
-  "author": "Divy Koushik Mishra & Mihir Suman",
+  "author": "Mihir Suman, Rehan Ashraf and Abdul Aman Khan",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -94,8 +94,8 @@ To get started with PennyTrack:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/pennytrack.git
-   cd pennytrack
+   git clone https://github.com/Neverm1ndEZ/captsone-project.git
+   cd capstone-project
    ```
 
 2. **Set up the frontend:**
